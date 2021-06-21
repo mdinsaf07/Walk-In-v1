@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reserve Table!</title>
+	<style>
+		body{
+		background-image: url("backgroundimage.jpg");
+		width: auto;
+		height: auto;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+	}
+	.h1{
+		font-family: sans-serif;
+		color: #DEB887;
+	}
+	.name{
+		color: #DEB887;
+		display: block;
+	}
+	.contact{
+		color: #DEB887;
+		display: block;
+	}
+	.pid{
+		color: #DEB887;
+		display: block;
+	}
+	.guests{
+		color:#DEB887 ;
+		display: block;
+	}
+	.time{
+		color: #DEB887;
+		display: block;
+	}
+	.coupon{
+		color: #DEB887;
+		display: block;
+	}
+	textarea{
+		resize: none;
+	}
+	</style>
+</head>
+<body>
+<h1 class="h1">Reserve your Table</h1>
+<form action="process.php" method="POST">
+	<label class="name">Name</label>
+	<input type="text" name="name" placeholder="Enter name">
+	<br><br>
+	<label class="contact">Contact Number</label>
+	<input type="tel" name="contact" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter number">
+	<br><br>
+	<label class="pid">Pick a date</label>
+	<input type="date" name="date" placeholder="Pick a date">
+	<br><br>
+	<label class="guests">No of Guests</label>
+	<input type="number" name="name" max=10>
+	<br><br>
+	<label class="time">Pick a time</label>
+	<select>
+		<option>2:30 pm</option>
+		<option>3:00 pm</option>
+		<option>3:30 pm</option>
+		<option>4:00 pm</option>
+		<option>4:30 pm</option>
+		<option>5:00 pm</option>
+	</select>
+	<br>
+	<br>
+	<textarea placeholder="Raise a request to the restaurant" name="requests"></textarea>
+	<br>
+	<br>
+	<label class="coupon">Enter Coupon Code</label>
+	<input type="text" name="coupon" placeholder="Enter coupon code">
+	<br>
+	<br>
+	<button type="submit" value="submit">Submit</button>
+
+
+
+
+	
+</form>
+</body>
+</html>
