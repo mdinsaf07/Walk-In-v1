@@ -23,5 +23,5 @@ A simple page that allows users to reserve tables at restaurents.
 
 # Credits
  - Thanks to [Traversy media](https://www.youtube.com/user/TechGuyWeb), [NetNinja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) and [freeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) for their excellent learning materials.
-- Walk'in is done as a part of my Front end curriculam at Aekam Labs, Coimbatore.
+- Walk'in is done as a part of my Front end curriculum at Aekam Labs, Coimbatore.
   
